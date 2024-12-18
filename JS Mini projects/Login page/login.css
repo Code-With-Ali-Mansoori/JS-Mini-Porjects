@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(231, 237, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#container{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightblue;
+    width: 50%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1 {
+    text-align: center;
+    color: rgb(94, 70, 249);
+    margin-top: 10px;
+}
+
+input{
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-block: 12px;
+    margin-inline: 10px;
+    width: 90%;
+    border-radius: 6px;
+    background-color: rgb(236, 233, 233);
+    border: none;
+}
+
+#input{
+    margin-top: 55px;
+}
+
+input[type = "text"]{
+    display: none;
+}
+
+a p{
+    text-align: center;
+    font-size: 12px;
+}
+
+button{
+    background-color: rgb(94, 94, 246);
+    width: 90px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800px;
+    text-align: center;
+    align-content: center;
+    margin-top: 30px;
+    transition: .5sec;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: rgb(49, 49, 246);
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.image a img{
+    max-height: 30px;   
+    cursor: pointer;
+    margin-inline : 20px;
+}
+
+#last-p{
+    margin-top: 25px;
+    margin-bottom: 10px;
+
+}
+#last-p a {
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+/* CSS RESPONSIVENESS */
+
+@media screen and (max-width : 400px){
+    .container{
+        width: 100%
+    };
+}

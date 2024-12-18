@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #000000;
+    
+}
+
+p{
+    font-size: xx-large;
+    color: rgb(26, 24, 24);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.container{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 9px;
+    height: 40vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 10%;
+    flex-direction: column;
+    background-color: #F8EDED;
+}
+
+#clock{
+    background-color: rgb(247, 169, 67);
+    height: 60px;
+    width: 145px;
+    border: 1px solid rgb(247, 169, 67);
+    border-radius: 5px;
+}
